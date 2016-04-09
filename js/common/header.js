@@ -3,7 +3,7 @@ document.write("<nav class=\"navbar navbar-inverse navbar-fixed-top\" role=\"nav
 document.write("	<div class=\"container\">");
 document.write("		<div class=\"collapse navbar-collapse\">");
 document.write("			<ul class=\"nav navbar-nav\">");
-document.write("				<li><a href=\"#\">test1</a></li>");
+document.write("				<li><a href=\"index.html\">Home</a></li>");
 document.write("				<li><a href=\"#\">test2</a></li>");
 document.write("				<li><a href=\"#\">test3</a></li>");
 document.write("				<li><a href=\"#\">test4</a></li>");

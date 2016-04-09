@@ -1,0 +1,24 @@
+.nav-left-side{
+    margin-top:30px;
+    position: fixed;
+    margin-left:0px;
+    border: 1px solid #2aabd2;
+    float: left;
+    height:100%;
+    width:17%;
+}
+.nav>ul>li{
+    background: #9acfea;
+    margin-bottom: 1px;
+    border:1px;
+    border-radius: 5px;
+}
+.content{
+    float: right;
+    margin-top: 50px;
+    width: 83%;
+    height:100%;
+}
+.alert{
+    display: none;
+}

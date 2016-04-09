@@ -1,0 +1,30 @@
+.form-content{
+    margin:10px 10px;
+}
+.form-row{
+    /*
+    border:1px solid #0f0f0f;
+    */
+    min-height: 35px;
+    position: inherit;
+}
+.form-col{
+    border-right:1px solid #0f0f0f;
+    border-top:1px solid #0f0f0f;
+    max-width: 80%;
+    min-width: 20%;
+    line-height: 30px;
+    text-align: center;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.title{
+    text-align: center;
+}
+input{
+    width:40px;
+}
+.m-btn-group{
+    text-align: center;
+    margin-top:30px;
+}

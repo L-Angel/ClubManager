@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--  !!!!!!!!!!!Starting 核心文件!!!!!!!!!!!!-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link href="css/common.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common/common.js"></script>
+    <script src="js/jquerysession.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <!--  !!!!!!!!!!!ending 核心文件!!!!!!!!!!!!!!!-->
+    <script src="js/addclubinfo.js"></script>
+    <link href="css/addclubinfo.css" type="text/css" rel="stylesheet"/>
+
+
+</head>
+<body>
+<script language="javascript" src="js/common/header.js"></script>
+<script src="js/common/nav-left.js"></script>
+
+<div class="container content">
+    <div class="alert alert-success m-alert">
+        Add Success!
+    </div>
+    <div class="alert alert-danger m-alert">
+        Add Failure!
+    </div>
+    <div class="form-content">
+        <div class="form-row">
+            <div class="title">
+                ClubMange
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-sm-3 form-col">
+                Club Name:
+            </div>
+            <div class="col-sm-9 form-col">
+                <input type="text" name="clubname" class="form-control"/>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-sm-3 form-col">
+                Club Manager:
+            </div>
+            <div class="col-sm-9 form-col">
+                <input type="text" name="clubname" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm-3 form-col">
+                Teacher:
+            </div>
+            <div class="col-sm-9 form-col">
+                <input type="text" name="teacher" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm-3 form-col">
+                Describe:
+            </div>
+            <div class="col-sm-9 form-col">
+                <textarea  name="describe" class="form-control" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm-3 form-col">
+                Build Time:
+            </div>
+            <div class="col-sm-9 form-col">
+                <input type="date" name="buildtime" class="form-control"/>
+            </div>
+        </div>
+         <div class="form-row col-sm-11 m-btn-group">
+             <a class="btn btn-success" id="submit">Submit</a> <a class="btn btn-danger" id="reset">Reset</a>
+         </div>
+    </div>
+</div>
+</body>
+</html>
