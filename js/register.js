@@ -11,9 +11,10 @@ $(function(){
         alert(12);
     });
     $("button[type='reset']").click(function(){
-        $password=$("input[name='password']").val("");
-        $repassword=$("input[name='repassword']").val("");
-        $email=$("input[name='email']").val("");
+        $username.val("");
+        $password.val("");
+        $repassword.val("");
+        $email.val("");
     });
 
 });

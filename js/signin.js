@@ -8,8 +8,14 @@ $(function(){
 //			}
 //		}
 	});
+	var $username=$("input[name='username']");
+	var $password=$("input[name='password']");
 	$("button[type='submit']").click(function(){
 		alert(12);
+	});
+	$("button[type='reset']").click(function(){
+		$username.val("");
+		$password.val("");
 	});
 	function isSpace(data){
 		if(data==""||data==null) return true;

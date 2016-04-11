@@ -1,0 +1,12 @@
+td:nth-child(1){
+    width:20%;
+}
+td:last-child{
+    text-align: center;
+}
+a[name='pass']{
+    margin-right:10px;
+}
+a[name='refuse']{
+    margin-left:10px;
+}
